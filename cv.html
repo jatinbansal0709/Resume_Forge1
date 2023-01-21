@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<title>ResumeForge - cv</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <style>
+  .w3-bar  {
+    padding: 16px;
+    border-radius: 0px 0px 25px 25px;
+  
+   
+  }
+  .w3-button{
+    padding: 16px;
+    border-radius: 22px;
+    
+  
+  }
+  .w3-button:hover{
+      background-color: rgb(255, 0, 0);
+  }
+  section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+  .footer-distributed{
+    background: #fff0f0;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+    width: 40%;
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+  }
+  
+  .footer-distributed h3 span{
+    color:  #4CAF50;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+    color:  #000000;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+    color:  rgb(81, 45, 45);
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #4CAF50;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color: #4CAF50;
+    text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #4CAF50;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #ffc87a;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #000000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  /* If you don't want the footer to be responsive, remove these media queries */
+  
+  @media (max-width: 880px) {
+  
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+  
+  }
+  </style>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top" >
+  
+  <div class="w3-bar  w3-card  w3-green" style=" box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.7);"   id="myNavbar">
+		<a href="index.html" class="w3-bar-item w3-button w3-wide w3-green" style="font-size:x-large;"><i class="fa fa-home" aria-hidden="true"></i><b> &nbsp; ResumeForge</b></a>
+	  <img class=" w3-image w3-round-large " style="border-radius: 23%;" src="Assets/scriptogen_logo.jpg" alt="Buildings" width="60" height="60" >
+	  
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#key features" class="w3-bar-item w3-button w3-green"><i class="fa fa fa-globe"></i> KEY-FEATURES</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-green"><i class="fa fa  fa-user"></i> ABOUT</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-green"><i class="fa fa fa-phone-square"></i> CONTACT FORM</a>
+
+	  
+
+      <a href="mailto:kunalsingla009@gmail.com" class="w3-bar-item w3-button w3-green"><i class="fa fa-envelope"></i> Mail</a>
+    </div>
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-top w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Key-Features</a>
+      <a href="about.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> About us</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+</nav>
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px; " id="home">
+  <img class="w3-image" src="Assets/cvback.jpg" alt="Architecture" width="1500"   style="background-position: center; border-radius: 20px 20px 50px 50px;
+  background-size: cover; min-height: 1000--;m" height="400">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white" style="text-shadow: 3px 3px 3px #000; "><span style="font-size: xx-large;" class=w3-pedding w3_black"><b>SELECT DESIGN OF COVER LETTER</b></span>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+  <div class="w3-container w3-padding-32" id="projects">
+   <b> <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="text-align: center; text-shadow: 2px 2px  #33383b;">Cover Letter's </h1> </b>
+  </div>
+<hr>
+<br style="width: 10px; color: #4CAF50;">
+<hr>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-green w3-padding">Simple</div>
+        <a href="1/srt-resume.html" target="_blank">
+        <img src="Assets/cv1.jpg" alt="House" style="width:80%"></a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <a href="2/index.html" target="_blank">
+        <div class="w3-display-topleft w3-green w3-padding">Standered-type</div>
+        <img src="Assets/cv2.jpg" alt="House" style="width:85%"></a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <a href="3/index.html" target="_blank">
+        <div class="w3-display-topleft w3-green w3-padding">Standered</div>
+        <img src="Assets/cv3.jpg" alt="House" style="width:85%"></a>
+      </div>
+    
+    </div><div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <a href="5/index.html" target="_blank">
+        <div class="w3-display-topleft w3-green w3-padding">Morden</div>
+        <img src="Assets/cv4.jpg" alt="House" style="width:85%"></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div><div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <a href="6/index.html" target="_blank">
+        <div class="w3-display-topleft w3-green w3-padding">Morden</div>
+        <img src="Assets/cv5.jpg" alt="House" style="width:85%"></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div><div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <a href="7/index.html" target="_blank">
+        <div class="w3-display-topleft w3-green w3-padding">Morden</div>
+        <img src="Assets/cv6.jpg" alt="House" style="width:85%"></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div><div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <a href="8/index.html" target="_blank">
+        <div class="w3-display-topleft w3-green w3-padding">Morden</div>
+        <img src="Assets/cv7.jpg" alt="House" style="width:85%"></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div><div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        
+        <div class="w3-display-topleft w3-green w3-padding">Futuristic_Under-development</div>
+        <img src="Assets/cv8.jpg" alt="House" style="width:85%">
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- Footer -->
+<br>
+<hr>
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3 style="color: #000000;">Resume<span>Forger</span></h3>
+
+				<p class="footer-links">
+					<a href="#" class="link-1">Home</a>
+					
+					
+				
+				
+					<a href="about.html">About</a>
+					
+					<a href="about.html">Features</a>
+					
+					<a href="mailto:kunalsingla009@gmail.com">Contact</a>
+				</p>
+
+				<p class="footer-company-name">ResumeForge © 2021</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-github"></i>
+					<p><a href="http://github.com/kunalsingla009/">http://github.com/kunalsingla009/</a></p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:kunalsingla009@gmail.com">kunalsingla009@gmail.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span><b>About Project</b></span>
+					The mailn goal of this project to provide a awful resume.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#https://github.com/Abhishek-op"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+<script>
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  
+  // Toggle between showing and hiding the sidebar when clicking the menu icon
+  var mySidebar = document.getElementById("mySidebar");
+  
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+  
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+  
+  
+  
+  
+  </script>
+</body>
+</html>
